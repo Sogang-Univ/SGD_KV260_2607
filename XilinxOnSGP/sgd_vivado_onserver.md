@@ -27,7 +27,7 @@ ssh -Y -R 3121:localhost:3121 eduxxx@1921.168.1.<server IP>
 ssh -Y -R 3121:localhost:3121 eduxxx@<sogang pankyo serverIP> -p <port#>
 ```
 
-* WSL2 에서 접속: windows network 보안 문제로 사용이 어렵다.
+* WSL2 에서 접속: windows에서 연결시 network 보안 문제로 연결 지연 문제 발생
 
 ```bash
 # WSL2에서 Windows 본체 IP를 자동으로 추출하여 SSH 역방향 터널링 실행
