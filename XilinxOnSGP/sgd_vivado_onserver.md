@@ -44,7 +44,7 @@ source /DATA/home/edu000/Xilinx/Vivado/2022.2/settings64.sh
 
 ### 3. Vivado / Vitis board 에서 local board 에 연결시 Local 환경 setup
 
-Xilinx 에서 제공하는 `hw_server` tool 사용: KV260 SOM은 boot_jtag setup 하여야 함.
+Local PC에서는 Xilinx 에서 제공하는 `hw_server` tool 실행: KV260 SOM은 boot_jtag setup 하여야 함.
 
 ```bash
 hw_server
