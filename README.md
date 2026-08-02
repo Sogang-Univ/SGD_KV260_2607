@@ -6,3 +6,5 @@ Sogang Univ. KV260 Project class
 ## [DPU_YOLO v3](https://github.com/Sogang-Univ/SGD_KV260_2607/tree/main/KV260_pynq/notebooks/dpu_yolov3#kria-pynq-dpu-example-yolov3)
 
 ## [Vitis AI Setup](./VitisAI/vitisAi_setup.md)
+
+## [Xilin on SGP](./XilinxOnSGP/sgd_vivado_onserver.md)
