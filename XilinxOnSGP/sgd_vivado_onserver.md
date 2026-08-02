@@ -1,6 +1,6 @@
 # Working on Sogang Sever
 
-vitis 2022.04 version을 install 하여 놓았다. 이를 기반으로 환경을 구축해 보자
+vitis 2022.2 version을 install 하여 놓았다. 이를 기반으로 환경을 구축해 보자
 
 ## setup vivado & vitis environment
 
