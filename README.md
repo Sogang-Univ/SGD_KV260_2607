@@ -5,11 +5,11 @@ Sogang Univ. KV260 Project class
 
 ## 팀 프로젝트
 
-### [A 팀]()
+### [A 팀: WakeupKria](https://github.com/Sogang-Univ/WakeupKria)
 
-### [B 팀: KV260 기반 좌석 점유 탐지 시스템](https://github.com/Sogang-Univ/fake_seat_detection_02)
+### [B 팀: ]()
 
-### [C 팀]()
+### [C 팀: KV260 기반 좌석 점유 탐지 시스템](https://github.com/Sogang-Univ/fake_seat_detection_02)
 
 ---
 ## 참고 자료
