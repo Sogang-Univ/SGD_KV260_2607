@@ -16,7 +16,7 @@ vitis 2022.2 version을 install 하여 놓았다. 이를 기반으로 환경을 
 ### 1. 각자의 서버 login 정보를 기반으로 X11 forwarding 과 SSH 터널링( Reverse Tunneling ) 연결
 
 ```bash
-ssh -Y -R 3121:localhost:3121 eduxxx@1921.168.1.<server IP>
+ssh -Y -R 312x:localhost:312x eduxxx@1921.168.1.<server IP>
 ```
 
 집에서 접속시
@@ -24,14 +24,14 @@ ssh -Y -R 3121:localhost:3121 eduxxx@1921.168.1.<server IP>
 * Mac / Ubunut
 
 ```bash
-ssh -Y -R 3121:localhost:3121 eduxxx@<sogang pankyo serverIP> -p <port#>
+ssh -Y -R 312x:localhost:312x eduxxx@<sogang pankyo serverIP> -p <port#>
 ```
 
 * WSL2 에서 접속: windows에서 연결시 network 보안 문제로 연결 지연 문제 발생
 
 ```bash
 # WSL2에서 Windows 본체 IP를 자동으로 추출하여 SSH 역방향 터널링 실행
-ssh -Y -R 3121:$(host_ip=$(ip route show | grep default | awk '{print $3}'); echo $host_ip):3121 <user id>@<학교서버IP> -p <서버포트>
+ssh -Y -R 312x:$(host_ip=$(ip route show | grep default | awk '{print $3}'); echo $host_ip):312x <user id>@<학교서버IP> -p <서버포트>
 ```
 
 ### 2. 점속 후 vivado 환경 setup
@@ -47,8 +47,10 @@ source /DATA/home/edu000/Xilinx/Vivado/2022.2/settings64.sh
 Local PC에서는 Xilinx 에서 제공하는 `hw_server` tool 실행: KV260 SOM은 boot_jtag setup 하여야 함.
 
 ```bash
-hw_server
+hw_server -s tcp::312x
 ```
+
+x: userid 의 마지막 번호
 
 ### **주의** 
 
