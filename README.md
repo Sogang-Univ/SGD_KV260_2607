@@ -20,4 +20,6 @@ Sogang Univ. KV260 Project class
 
 ### [Vitis AI Setup](./VitisAI/vitisAi_setup.md)
 
-### [Xilin on SGP](./XilinxOnSGP/sgd_vivado_onserver.md)
+### [Xilinx on SGP](./XilinxOnSGP/sgd_vivado_onserver.md)
+
+### [Customize DPU](./VitisAI/dpu_customize.md)
