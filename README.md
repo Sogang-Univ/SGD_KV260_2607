@@ -23,3 +23,5 @@
 ### [Xilinx on SGP](./XilinxOnSGP/sgd_vivado_onserver.md)
 
 ### [Customize DPU](./VitisAI/dpu_customize.md)
+
+### [vivado/Vitis projects' Repo on Github example](https://github.com/Sogang-Univ/sgd000_prj_04_stopwoo)
