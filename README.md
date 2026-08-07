@@ -1,5 +1,5 @@
 # SGD_KV260_2607
-[Sogang Univ.](github.com/Sogang-Univ) KV260 Project class
+[Sogang Univ.](https://github.com/Sogang-Univ) KV260 Project class
 
 ---
 
