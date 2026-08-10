@@ -12,15 +12,17 @@
 ### [C 팀: KV260 기반 좌석 점유 탐지 시스템](https://github.com/Sogang-Univ/fake_seat_detection_02)
 
 ---
-## 참고 자료
+## 참고
 
-### [Pynq 에서 PL logic 제어](https://github.com/Sogang-Univ/SGD_KV260_2607/tree/main/KV260_pynq/notebooks/prj_01_05#pynq-%EC%97%90%EC%84%9C-pl-logic-%EC%A0%9C%EC%96%B4)
+### [Xilinx on SGP](./XilinxOnSGP/readme.md)
 
-### [DPU_YOLO v3](https://github.com/Sogang-Univ/SGD_KV260_2607/tree/main/KV260_pynq/notebooks/dpu_yolov3#kria-pynq-dpu-example-yolov3)
+### Pynq 
+
+1. [Custom logic](./KV260_pynq/notebooks/prj_01_05/readme.md)
+2. [Pynq DPU: YOLO v3 basic](./KV260_pynq/notebooks/dpu_yolov3/readme.md)
+3. [Pynq DPU + Cam: YOLO v3](./KV260_pynq/notebooks/dpu_overlay/readme.md)
 
 ### [Vitis AI Setup](./VitisAI/vitisAi_setup.md)
-
-### [Xilinx on SGP](./XilinxOnSGP/sgd_vivado_onserver.md)
 
 ### [Customize DPU](./VitisAI/dpu_customize.md)
 
