@@ -7,7 +7,7 @@
 
 ### [A 팀: WakeupKria](https://github.com/Sogang-Univ/WakeupKria)
 
-### [B 팀: ](https://github.com/YHJ659/ppe_fpga)
+### [B 팀: ppe-fpga](https://github.com/YHJ659/ppe_fpga)
 
 ### [C 팀: KV260 기반 좌석 점유 탐지 시스템](https://github.com/Sogang-Univ/fake_seat_detection_02)
 
@@ -26,4 +26,4 @@
 
 ### [Customize DPU](./VitisAI/dpu_customize.md)
 
-### [vivado/Vitis projects' Repo on Github example](https://github.com/Sogang-Univ/sgd000_prj_04_stopwoo)
+### [Vivado/Vitis projects' Repo on Github example](https://github.com/Sogang-Univ/sgd000_prj_04_stopwoo)
